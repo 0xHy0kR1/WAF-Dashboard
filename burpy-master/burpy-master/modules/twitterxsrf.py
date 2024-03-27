@@ -30,4 +30,4 @@ def main(raw_stream,ssl):
 		return "FALSE"
 	else:
 		# If false only send False
-		return title,final,result[0],result[1],result[2],result[3]	# Else return the crafted request
+		return title,result[0],result[1],result[2],result[3]	# Else return the crafted request
