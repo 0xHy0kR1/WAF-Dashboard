@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<ScanGroup ExportedOn="30/03/2024, 16:17:12">
+<Scan>
+        <Name><![CDATA[scan_name]]></Name>
+        <ShortName><![CDATA[scan_short_name]]></ShortName>
+        <StartURL><![CDATA[https://demo.testfire.net/]]></StartURL>
+        <StartTime><![CDATA[30/03/2024, 16:03:08]]></StartTime>
+        <FinishTime><![CDATA[30/03/2024, 16:03:58]]></FinishTime>
+        <ScanTime><![CDATA[45 seconds]]></ScanTime>
+        <Aborted><![CDATA[False]]></Aborted>
+        <Responsive><![CDATA[]]></Responsive>
+        <Banner><![CDATA[]]></Banner>
+        <Os><![CDATA[]]></Os>
+        <WebServer><![CDATA[]]></WebServer>
+        <Technologies>
+            <![CDATA[
+                
+            ]]>
+        </Technologies>
+        <Crawler StartUrl="https://demo.testfire.net/">
+            <Cookies>
+                
+            </Cookies>
+            <SiteFiles>
+<SiteFile id="1">
+                    <Name><![CDATA[https://demo.testfire.net/]]></Name>
+                    <URL><![CDATA[/]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/]]></FullURL>
+                    
+                    <Inputs>
+                        
+                            
+                                <Variable Name="Host" Type="HTTP Header"/>
+                            
+                        
+                    </Inputs>
+                    
+                </SiteFile>
+<SiteFile id="2">
+                    <Name><![CDATA[altoro]]></Name>
+                    <URL><![CDATA[/altoro]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/altoro]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="3">
+                    <Name><![CDATA[images]]></Name>
+                    <URL><![CDATA[/altoro/images]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/altoro/images]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="4">
+                    <Name><![CDATA[default.jsp]]></Name>
+                    <URL><![CDATA[/default.jsp]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/default.jsp]]></FullURL>
+                    
+                    <Inputs>
+                        
+                            
+                                <Variable Name="content" Type="URL encoded GET"/>
+                            
+                        
+                    </Inputs>
+                    
+                </SiteFile>
+<SiteFile id="5">
+                    <Name><![CDATA[doLogin]]></Name>
+                    <URL><![CDATA[/doLogin]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/doLogin]]></FullURL>
+                    
+                    <Inputs>
+                        
+                            
+                                <Variable Name="" Type="URL encoded POST"/>
+                            
+                                <Variable Name="passw" Type="URL encoded POST"/>
+                            
+                                <Variable Name="uid" Type="URL encoded POST"/>
+                            
+                        
+                    </Inputs>
+                    
+                </SiteFile>
+<SiteFile id="6">
+                    <Name><![CDATA[doSubscribe]]></Name>
+                    <URL><![CDATA[/doSubscribe]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/doSubscribe]]></FullURL>
+                    
+                    <Inputs>
+                        
+                            
+                                <Variable Name="" Type="URL encoded POST"/>
+                            
+                                <Variable Name="txtEmail" Type="URL encoded POST"/>
+                            
+                        
+                    </Inputs>
+                    
+                </SiteFile>
+<SiteFile id="7">
+                    <Name><![CDATA[feedback.jsp]]></Name>
+                    <URL><![CDATA[/feedback.jsp]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/feedback.jsp]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="8">
+                    <Name><![CDATA[high_yield_investments.htm]]></Name>
+                    <URL><![CDATA[/high_yield_investments.htm]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/high_yield_investments.htm]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="9">
+                    <Name><![CDATA[images]]></Name>
+                    <URL><![CDATA[/images]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/images]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="10">
+                    <Name><![CDATA[index.jsp]]></Name>
+                    <URL><![CDATA[/index.jsp]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/index.jsp]]></FullURL>
+                    
+                    <Inputs>
+                        
+                            
+                                <Variable Name="content" Type="URL encoded GET"/>
+                            
+                        
+                    </Inputs>
+                    
+                </SiteFile>
+<SiteFile id="11">
+                    <Name><![CDATA[inside_points_of_interest.htm]]></Name>
+                    <URL><![CDATA[/inside_points_of_interest.htm]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/inside_points_of_interest.htm]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="12">
+                    <Name><![CDATA[login.jsp]]></Name>
+                    <URL><![CDATA[/login.jsp]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/login.jsp]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="13">
+                    <Name><![CDATA[my%20documents]]></Name>
+                    <URL><![CDATA[/my%20documents]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/my%20documents]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="14">
+                    <Name><![CDATA[JohnSmith]]></Name>
+                    <URL><![CDATA[/my%20documents/JohnSmith]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/my%20documents/JohnSmith]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="15">
+                    <Name><![CDATA[Bank%20Site%20Documents]]></Name>
+                    <URL><![CDATA[/my%20documents/JohnSmith/Bank%20Site%20Documents]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/my%20documents/JohnSmith/Bank%20Site%20Documents]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="16">
+                    <Name><![CDATA[grouplife.htm]]></Name>
+                    <URL><![CDATA[/my%20documents/JohnSmith/Bank%20Site%20Documents/grouplife.htm]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/my%20documents/JohnSmith/Bank%20Site%20Documents/grouplife.htm]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="17">
+                    <Name><![CDATA[pr]]></Name>
+                    <URL><![CDATA[/pr]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/pr]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="18">
+                    <Name><![CDATA[retirement.htm]]></Name>
+                    <URL><![CDATA[/retirement.htm]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/retirement.htm]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="19">
+                    <Name><![CDATA[search.jsp]]></Name>
+                    <URL><![CDATA[/search.jsp]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/search.jsp]]></FullURL>
+                    
+                    <Inputs>
+                        
+                            
+                                <Variable Name="query" Type="URL encoded GET"/>
+                            
+                        
+                    </Inputs>
+                    
+                </SiteFile>
+<SiteFile id="20">
+                    <Name><![CDATA[security.htm]]></Name>
+                    <URL><![CDATA[/security.htm]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/security.htm]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="21">
+                    <Name><![CDATA[sendFeedback]]></Name>
+                    <URL><![CDATA[/sendFeedback]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/sendFeedback]]></FullURL>
+                    
+                    <Inputs>
+                        
+                            
+                                <Variable Name="" Type="URL encoded POST"/>
+                            
+                                <Variable Name="cfile" Type="URL encoded POST"/>
+                            
+                                <Variable Name="comments" Type="URL encoded POST"/>
+                            
+                                <Variable Name="email_addr" Type="URL encoded POST"/>
+                            
+                                <Variable Name="name" Type="URL encoded POST"/>
+                            
+                                <Variable Name="subject" Type="URL encoded POST"/>
+                            
+                        
+                    </Inputs>
+                    
+                </SiteFile>
+<SiteFile id="22">
+                    <Name><![CDATA[status_check.jsp]]></Name>
+                    <URL><![CDATA[/status_check.jsp]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/status_check.jsp]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="23">
+                    <Name><![CDATA[style.css]]></Name>
+                    <URL><![CDATA[/style.css]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/style.css]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="24">
+                    <Name><![CDATA[subscribe.jsp]]></Name>
+                    <URL><![CDATA[/subscribe.jsp]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/subscribe.jsp]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="25">
+                    <Name><![CDATA[survey_questions.jsp]]></Name>
+                    <URL><![CDATA[/survey_questions.jsp]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/survey_questions.jsp]]></FullURL>
+                    
+                    <Inputs>
+                        
+                            
+                                <Variable Name="step" Type="URL encoded GET"/>
+                            
+                        
+                    </Inputs>
+                    
+                </SiteFile>
+<SiteFile id="26">
+                    <Name><![CDATA[swagger]]></Name>
+                    <URL><![CDATA[/swagger]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/swagger]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="27">
+                    <Name><![CDATA[index.html]]></Name>
+                    <URL><![CDATA[/swagger/index.html]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/swagger/index.html]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="28">
+                    <Name><![CDATA[properties.json]]></Name>
+                    <URL><![CDATA[/swagger/properties.json]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/swagger/properties.json]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="29">
+                    <Name><![CDATA[swagger-ui-bundle.js]]></Name>
+                    <URL><![CDATA[/swagger/swagger-ui-bundle.js]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/swagger/swagger-ui-bundle.js]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="30">
+                    <Name><![CDATA[swagger-ui-standalone-preset.js]]></Name>
+                    <URL><![CDATA[/swagger/swagger-ui-standalone-preset.js]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/swagger/swagger-ui-standalone-preset.js]]></FullURL>
+                    
+                </SiteFile>
+<SiteFile id="31">
+                    <Name><![CDATA[swagger-ui.css]]></Name>
+                    <URL><![CDATA[/swagger/swagger-ui.css]]></URL>
+                    <FullURL><![CDATA[https://demo.testfire.net/swagger/swagger-ui.css]]></FullURL>
+                    
+                </SiteFile>
+            </SiteFiles>
+        </Crawler>
+        <ReportItems>
+        </ReportItems>
+    </Scan>
+</ScanGroup>
